@@ -1,0 +1,116 @@
+html {
+  background: url(/images/heimerdinger-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.middle{
+
+
+  background-color:#1A1A1A;
+  width: 1000px;
+
+  color: #80807A;
+  margin: 100px auto;
+  border-radius: 8px;
+  box-shadow: 4px 4px 5px #009;
+
+}
+
+
+h1{
+
+  padding-left: 5px;
+
+}
+
+
+body {
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0088cc;
+
+
+}
+a {
+
+  color: #0088cc;
+  text-decoration: none;
+  position: relative;
+
+}
+/*
+a:hover,
+a:focus {
+  color: #005580;
+  text-decoration: underline;
+}
+*/
+
+
+
+
+.test li{
+  font-size: 12px;
+  display:inline;
+  background-color:blue;
+  border-radius: 3px;
+}
+.test li a.hover  {
+  font-size: 15px;
+  display: inline;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 3px;
+
+}
+ul#myid li a:hover, ul#myid li#active a:hover, ul#myid li#active a:hover{
+  color: #800000;
+  background: pink;
+  border-color: #aaab9c #fff #fff #ccc;
+  border-radius: 3px;
+
+}
+
+li { background: blue; }
+li.clicked { background: red; }
+
+
+.stats{
+
+  font-size: 0;
+}
+.stats div{
+  margin-left: 20px;
+  display: inline-block;
+}
+.stats h1{
+  font-size: 14px;
+
+}
+
+
+stats div.creeptotal{
+  width: 300px;
+  height: 300px;
+
+}
+stats div.creep10{
+  width: auto;
+  height: auto;
+
+ }
+stats div.creep20{
+  width: auto;
+  height: auto;
+  float: left;
+}
+stats div.creep30{
+  width: auto;
+  height: auto;
+
+}

@@ -1,0 +1,1 @@
+python G:\PleskVhosts\lolgears.uk\httpdocs\mySQL_Connector.py
