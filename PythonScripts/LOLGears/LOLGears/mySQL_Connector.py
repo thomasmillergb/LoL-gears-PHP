@@ -9,7 +9,7 @@ class Connection:
 
          # connect
         db = MySQLdb.connect(user = 'killermillergb',
-                             passwd = 'Towcester1',
+                             passwd = 'xxxxx',
                              host = '50.62.209.147',
                              db = 'killermillergb_',
                              port = 3306 )
